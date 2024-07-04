@@ -11,4 +11,4 @@ def test_root_deve_retornar_ok_e_ola_mundo():
     response = client.get('/')  # Act (ação)
 
     assert response.status_code == HTTPStatus.OK  # assert (confirmação)
-    assert response.json() == {'message': 'Olá Mundogit'}
+    assert response.json() == {'message': 'Olá Mundo'}
